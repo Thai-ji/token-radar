@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Token Radar - pre-token launch radar</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand">TOKEN<span class="dot">:</span>RADAR</div>
+  <div class="meta" id="meta">loading snapshot...</div>
+</header>
+<main>
+  <section class="wrap" id="hero"></section>
+  <section class="wrap" id="spotlight"></section>
+  <section class="wrap" id="boardsec">
+    <h2>Ranked board <span class="sub" id="boardsub"></span></h2>
+    <div id="controls"></div>
+    <div id="tablewrap"></div>
+    <p class="count" id="count"></p>
+  </section>
+  <section class="wrap" id="compsview">
+    <h2>Comparables prices <span class="sub">what the model pays for TVL, read from the snapshot itself</span></h2>
+    <div id="compstable"></div>
+    <h3 class="mt">Live-token protocols, held out of the board <span class="sub">the market's own prices; these are the comps</span></h3>
+    <div id="livetable"></div>
+  </section>
+  <section class="wrap" id="method">
+    <h2>How the score is built</h2>
+    <div id="methodbody"></div>
+  </section>
+</main>
+<footer class="wrap" id="foot"></footer>
+<div id="modal" hidden></div>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
