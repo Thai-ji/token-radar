@@ -1,2 +1,3 @@
+# local run output (board.json, data.js, dashboard copy, dossier.json)
 out/
-
+*.log
